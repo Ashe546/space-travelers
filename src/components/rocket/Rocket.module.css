@@ -34,7 +34,19 @@
   line-height: 1.7;
 }
 
-.details button {
+.details p span {
+  padding: 0.1em 1em;
+  border-radius: 8px;
+  background-color: #58b0f3ee;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.85rem;
+  letter-spacing: 2px;
+  font-weight: 300;
+  margin-right: 0.5rem;
+}
+
+.btn {
   background-color: #0290ff;
   color: #fff;
   font-family: 'Open Sans', sans-serif;
@@ -47,8 +59,21 @@
   cursor: pointer;
 }
 
-.details button:hover {
+.btn:hover {
   background-color: #1576c0;
+}
+
+.reserved {
+  background-color: transparent;
+  color: rgb(56, 54, 54);
+  padding: 0.5em 1em;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  margin-top: 1rem;
 }
 
 @media screen and (min-width: 768px) {
