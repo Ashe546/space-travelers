@@ -31,13 +31,6 @@ const rocketSlice = createSlice({
           rocket.id === rocketId ? !rocket.reservation : rocket.reservation,
       }));
     },
-    cancelRocket(state, action) {
-      const rocketId = action.payload;
-      const rocket = state.find((rocket) => rocket.id === rocketId);
-      if (rocket) {
-        rocket.reserved = false;
-      }
-    },
   },
   extraReducers: {
     [fetchRocket.fulfilled]: (state, action) => action.payload,
