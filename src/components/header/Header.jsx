@@ -1,7 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import img from '../../asset/planet.png';
 import styles from './Header.module.css';
-import Button from '../../UI/Button';
 
 function Header() {
   return (
@@ -11,7 +10,7 @@ function Header() {
         <h1>Space Traveler&apos;s Hub</h1>
       </div>
       <nav>
-        <ul>
+        <ul className={styles.menu}>
           <li>
             <a>Rockets</a>
           </li>

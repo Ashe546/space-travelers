@@ -1,8 +1,7 @@
-function Button({ title, onClick, type }) {
+// eslint-disable-next-line react/prop-types
+function Button({ title }) {
   return (
-    <button type={type} onClick={onClick}>
-      {title}
-    </button>
+    <button type="button">{title}</button>
   );
 }
 

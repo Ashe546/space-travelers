@@ -2,9 +2,6 @@
 
 :root {
   --color-accent: #0290ff;
-  --color-primary: #fff;
-  --text-color: #867e7e;
-  --text-hover: black;
 }
 
 * {
@@ -15,6 +12,7 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+  font-weight: 300;
 }
 
 ul {
