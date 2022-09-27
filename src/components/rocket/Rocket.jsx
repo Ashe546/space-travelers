@@ -12,7 +12,7 @@ function Rocket() {
           <p>
             SpaceX Falcon 9 is a two-stage rocket designed and manufactured by
             SpaceX for the reliable and safe transport of satellites and the
-            Dragon spacecraft into orbit.
+            Dragon spacecraft into orbit
           </p>
           <Button title="Reserve Rocket" />
         </div>
