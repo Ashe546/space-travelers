@@ -45,7 +45,7 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Duane David**
 
-- GitHub: [@Ashenafi](https://github.com/DuaneDave)
+- GitHub: [@David](https://github.com/DuaneDave)
 
 ## 🤝 Contributing
 
