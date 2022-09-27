@@ -1,11 +1,16 @@
+import { Provider } from 'react-redux';
+import store from './Redux/configureStore';
+
 import Header from './components/header/Header';
-import Rocket from './components/rocket/Rocket';
+import Rockets from './components/rocket/Rockets';
 
 function App() {
   return (
     <div>
-      <Header />
-      <Rocket />
+      <Provider store={store}>
+        <Header />
+        <Rockets />
+      </Provider>
     </div>
   );
 }
