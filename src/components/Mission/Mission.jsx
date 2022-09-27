@@ -3,7 +3,6 @@ import styles from './Mission.module.css'
 
 export default function Mission() {
   return (
-    <div >
 <table className={styles.container}>
   <tr>
     <th>Company</th>
@@ -21,6 +20,5 @@ export default function Mission() {
     <td>Mexico</td>
   </tr>
 </table>
-    </div>
   )
 }
