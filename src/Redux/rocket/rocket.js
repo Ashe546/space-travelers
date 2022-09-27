@@ -33,7 +33,7 @@ const rocketSlice = createSlice({
     },
   },
   extraReducers: {
-    [fetchRocket.fulfilled]: (state, action) => action.payload,
+    [fetchRocket.fulfilled]: (action) => action.payload,
   },
 });
 
