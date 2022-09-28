@@ -1,0 +1,727 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rockets renders correctly 1`] = `
+<main>
+  <div
+    className="container"
+  >
+    <div
+      className="rocket"
+    >
+      <img
+        alt="spaceX"
+        src="https://images2.imgbox.com/3c/0e/T8iJcSN3_o.png"
+      />
+      <div
+        className="details"
+      >
+        <h2>
+          Falcon 1
+        </h2>
+        <p>
+          Falcon 1 was an expendable launch system privately developed and manufactured by SpaceX during 2006-2009
+        </p>
+        <button
+          className="btn"
+          onClick={[Function]}
+          type="button"
+        >
+          Reserve Rocket
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="rocket"
+    >
+      <img
+        alt="spaceX"
+        src="https://images2.imgbox.com/4f/e3/I0lkuJ2e_o.png"
+      />
+      <div
+        className="details"
+      >
+        <h2>
+          Falcon 9
+        </h2>
+        <p>
+          Falcon 9 is a two-stage rocket designed and manufactured by SpaceX for the reliable and safe transport of satellites and the Dragon spacecraft into orbit.
+        </p>
+        <button
+          className="btn"
+          onClick={[Function]}
+          type="button"
+        >
+          Reserve Rocket
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="rocket"
+    >
+      <img
+        alt="spaceX"
+        src="https://images2.imgbox.com/3d/86/cnu0pan8_o.png"
+      />
+      <div
+        className="details"
+      >
+        <h2>
+          Falcon Heavy
+        </h2>
+        <p>
+          Falcon Heavy is a heavy lift launch vehicle designed and manufactured by SpaceX for the reliable and safe transport of satellites, the Dragon spacecraft, and other payloads into orbit.
+        </p>
+        <button
+          className="btn"
+          onClick={[Function]}
+          type="button"
+        >
+          Reserve Rocket
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="rocket"
+    >
+      <img
+        alt="spaceX"
+        src="https://images2.imgbox.com/be/e7/iNqsqVYM_o.png"
+      />
+      <div
+        className="details"
+      >
+        <h2>
+          Starship
+        </h2>
+        <p>
+          Starship is an upcoming super heavy-lift launch vehicle and spacecraft under development by SpaceX.
+        </p>
+        <button
+          className="btn"
+          onClick={[Function]}
+          type="button"
+        >
+          Reserve Rocket
+        </button>
+      </div>
+    </div>
+  </div>
+</main>
+`;
+
+exports[`Rockets renders rocke correctly 1`] = `
+<main>
+  <div
+    className="container"
+  >
+    <div
+      className="rocket"
+    >
+      <img
+        alt="spaceX"
+        src="https://images2.imgbox.com/3c/0e/T8iJcSN3_o.png"
+      />
+      <div
+        className="details"
+      >
+        <h2>
+          Falcon 1
+        </h2>
+        <p>
+          Falcon 1 was an expendable launch system privately developed and manufactured by SpaceX during 2006-2009
+        </p>
+        <button
+          className="btn"
+          onClick={[Function]}
+          type="button"
+        >
+          Reserve Rocket
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="rocket"
+    >
+      <img
+        alt="spaceX"
+        src="https://images2.imgbox.com/4f/e3/I0lkuJ2e_o.png"
+      />
+      <div
+        className="details"
+      >
+        <h2>
+          Falcon 9
+        </h2>
+        <p>
+          Falcon 9 is a two-stage rocket designed and manufactured by SpaceX for the reliable and safe transport of satellites and the Dragon spacecraft into orbit.
+        </p>
+        <button
+          className="btn"
+          onClick={[Function]}
+          type="button"
+        >
+          Reserve Rocket
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="rocket"
+    >
+      <img
+        alt="spaceX"
+        src="https://images2.imgbox.com/3d/86/cnu0pan8_o.png"
+      />
+      <div
+        className="details"
+      >
+        <h2>
+          Falcon Heavy
+        </h2>
+        <p>
+          Falcon Heavy is a heavy lift launch vehicle designed and manufactured by SpaceX for the reliable and safe transport of satellites, the Dragon spacecraft, and other payloads into orbit.
+        </p>
+        <button
+          className="btn"
+          onClick={[Function]}
+          type="button"
+        >
+          Reserve Rocket
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="rocket"
+    >
+      <img
+        alt="spaceX"
+        src="https://images2.imgbox.com/be/e7/iNqsqVYM_o.png"
+      />
+      <div
+        className="details"
+      >
+        <h2>
+          Starship
+        </h2>
+        <p>
+          Starship is an upcoming super heavy-lift launch vehicle and spacecraft under development by SpaceX.
+        </p>
+        <button
+          className="btn"
+          onClick={[Function]}
+          type="button"
+        >
+          Reserve Rocket
+        </button>
+      </div>
+    </div>
+  </div>
+</main>
+`;
+
+exports[`Rockets renders rocket components correctly 1`] = `
+<main>
+  <div
+    className="container"
+  >
+    <div
+      className="rocket"
+    >
+      <img
+        alt="spaceX"
+        src="https://images2.imgbox.com/3c/0e/T8iJcSN3_o.png"
+      />
+      <div
+        className="details"
+      >
+        <h2>
+          Falcon 1
+        </h2>
+        <p>
+          Falcon 1 was an expendable launch system privately developed and manufactured by SpaceX during 2006-2009
+        </p>
+        <button
+          className="btn"
+          onClick={[Function]}
+          type="button"
+        >
+          Reserve Rocket
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="rocket"
+    >
+      <img
+        alt="spaceX"
+        src="https://images2.imgbox.com/4f/e3/I0lkuJ2e_o.png"
+      />
+      <div
+        className="details"
+      >
+        <h2>
+          Falcon 9
+        </h2>
+        <p>
+          Falcon 9 is a two-stage rocket designed and manufactured by SpaceX for the reliable and safe transport of satellites and the Dragon spacecraft into orbit.
+        </p>
+        <button
+          className="btn"
+          onClick={[Function]}
+          type="button"
+        >
+          Reserve Rocket
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="rocket"
+    >
+      <img
+        alt="spaceX"
+        src="https://images2.imgbox.com/3d/86/cnu0pan8_o.png"
+      />
+      <div
+        className="details"
+      >
+        <h2>
+          Falcon Heavy
+        </h2>
+        <p>
+          Falcon Heavy is a heavy lift launch vehicle designed and manufactured by SpaceX for the reliable and safe transport of satellites, the Dragon spacecraft, and other payloads into orbit.
+        </p>
+        <button
+          className="btn"
+          onClick={[Function]}
+          type="button"
+        >
+          Reserve Rocket
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="rocket"
+    >
+      <img
+        alt="spaceX"
+        src="https://images2.imgbox.com/be/e7/iNqsqVYM_o.png"
+      />
+      <div
+        className="details"
+      >
+        <h2>
+          Starship
+        </h2>
+        <p>
+          Starship is an upcoming super heavy-lift launch vehicle and spacecraft under development by SpaceX.
+        </p>
+        <button
+          className="btn"
+          onClick={[Function]}
+          type="button"
+        >
+          Reserve Rocket
+        </button>
+      </div>
+    </div>
+  </div>
+</main>
+`;
+
+exports[`Rockets should render rocket components correctly 1`] = `
+<main>
+  <div
+    className="container"
+  >
+    <div
+      className="rocket"
+    >
+      <img
+        alt="spaceX"
+        src="https://images2.imgbox.com/3c/0e/T8iJcSN3_o.png"
+      />
+      <div
+        className="details"
+      >
+        <h2>
+          Falcon 1
+        </h2>
+        <p>
+          Falcon 1 was an expendable launch system privately developed and manufactured by SpaceX during 2006-2009
+        </p>
+        <button
+          className="btn"
+          onClick={[Function]}
+          type="button"
+        >
+          Reserve Rocket
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="rocket"
+    >
+      <img
+        alt="spaceX"
+        src="https://images2.imgbox.com/4f/e3/I0lkuJ2e_o.png"
+      />
+      <div
+        className="details"
+      >
+        <h2>
+          Falcon 9
+        </h2>
+        <p>
+          Falcon 9 is a two-stage rocket designed and manufactured by SpaceX for the reliable and safe transport of satellites and the Dragon spacecraft into orbit.
+        </p>
+        <button
+          className="btn"
+          onClick={[Function]}
+          type="button"
+        >
+          Reserve Rocket
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="rocket"
+    >
+      <img
+        alt="spaceX"
+        src="https://images2.imgbox.com/3d/86/cnu0pan8_o.png"
+      />
+      <div
+        className="details"
+      >
+        <h2>
+          Falcon Heavy
+        </h2>
+        <p>
+          Falcon Heavy is a heavy lift launch vehicle designed and manufactured by SpaceX for the reliable and safe transport of satellites, the Dragon spacecraft, and other payloads into orbit.
+        </p>
+        <button
+          className="btn"
+          onClick={[Function]}
+          type="button"
+        >
+          Reserve Rocket
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="rocket"
+    >
+      <img
+        alt="spaceX"
+        src="https://images2.imgbox.com/be/e7/iNqsqVYM_o.png"
+      />
+      <div
+        className="details"
+      >
+        <h2>
+          Starship
+        </h2>
+        <p>
+          Starship is an upcoming super heavy-lift launch vehicle and spacecraft under development by SpaceX.
+        </p>
+        <button
+          className="btn"
+          onClick={[Function]}
+          type="button"
+        >
+          Reserve Rocket
+        </button>
+      </div>
+    </div>
+  </div>
+</main>
+`;
+
+exports[`Rockets should render rocket components correctly with given state fr 1`] = `
+<main>
+  <div
+    className="container"
+  >
+    <div
+      className="rocket"
+    >
+      <img
+        alt="spaceX"
+        src="https://images2.imgbox.com/3c/0e/T8iJcSN3_o.png"
+      />
+      <div
+        className="details"
+      >
+        <h2>
+          Falcon 1
+        </h2>
+        <p>
+          Falcon 1 was an expendable launch system privately developed and manufactured by SpaceX during 2006-2009
+        </p>
+        <button
+          className="btn"
+          onClick={[Function]}
+          type="button"
+        >
+          Reserve Rocket
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="rocket"
+    >
+      <img
+        alt="spaceX"
+        src="https://images2.imgbox.com/4f/e3/I0lkuJ2e_o.png"
+      />
+      <div
+        className="details"
+      >
+        <h2>
+          Falcon 9
+        </h2>
+        <p>
+          Falcon 9 is a two-stage rocket designed and manufactured by SpaceX for the reliable and safe transport of satellites and the Dragon spacecraft into orbit.
+        </p>
+        <button
+          className="btn"
+          onClick={[Function]}
+          type="button"
+        >
+          Reserve Rocket
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="rocket"
+    >
+      <img
+        alt="spaceX"
+        src="https://images2.imgbox.com/3d/86/cnu0pan8_o.png"
+      />
+      <div
+        className="details"
+      >
+        <h2>
+          Falcon Heavy
+        </h2>
+        <p>
+          Falcon Heavy is a heavy lift launch vehicle designed and manufactured by SpaceX for the reliable and safe transport of satellites, the Dragon spacecraft, and other payloads into orbit.
+        </p>
+        <button
+          className="btn"
+          onClick={[Function]}
+          type="button"
+        >
+          Reserve Rocket
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="rocket"
+    >
+      <img
+        alt="spaceX"
+        src="https://images2.imgbox.com/be/e7/iNqsqVYM_o.png"
+      />
+      <div
+        className="details"
+      >
+        <h2>
+          Starship
+        </h2>
+        <p>
+          Starship is an upcoming super heavy-lift launch vehicle and spacecraft under development by SpaceX.
+        </p>
+        <button
+          className="btn"
+          onClick={[Function]}
+          type="button"
+        >
+          Reserve Rocket
+        </button>
+      </div>
+    </div>
+  </div>
+</main>
+`;
+
+exports[`Rockets should render rocket components correctly with given state from Redux 1`] = `
+<main>
+  <div
+    className="container"
+  >
+    <div
+      className="rocket"
+    >
+      <img
+        alt="spaceX"
+        src="https://images2.imgbox.com/3c/0e/T8iJcSN3_o.png"
+      />
+      <div
+        className="details"
+      >
+        <h2>
+          Falcon 1
+        </h2>
+        <p>
+          Falcon 1 was an expendable launch system privately developed and manufactured by SpaceX during 2006-2009
+        </p>
+        <button
+          className="btn"
+          onClick={[Function]}
+          type="button"
+        >
+          Reserve Rocket
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="rocket"
+    >
+      <img
+        alt="spaceX"
+        src="https://images2.imgbox.com/4f/e3/I0lkuJ2e_o.png"
+      />
+      <div
+        className="details"
+      >
+        <h2>
+          Falcon 9
+        </h2>
+        <p>
+          Falcon 9 is a two-stage rocket designed and manufactured by SpaceX for the reliable and safe transport of satellites and the Dragon spacecraft into orbit.
+        </p>
+        <button
+          className="btn"
+          onClick={[Function]}
+          type="button"
+        >
+          Reserve Rocket
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="rocket"
+    >
+      <img
+        alt="spaceX"
+        src="https://images2.imgbox.com/3d/86/cnu0pan8_o.png"
+      />
+      <div
+        className="details"
+      >
+        <h2>
+          Falcon Heavy
+        </h2>
+        <p>
+          Falcon Heavy is a heavy lift launch vehicle designed and manufactured by SpaceX for the reliable and safe transport of satellites, the Dragon spacecraft, and other payloads into orbit.
+        </p>
+        <button
+          className="btn"
+          onClick={[Function]}
+          type="button"
+        >
+          Reserve Rocket
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="rocket"
+    >
+      <img
+        alt="spaceX"
+        src="https://images2.imgbox.com/be/e7/iNqsqVYM_o.png"
+      />
+      <div
+        className="details"
+      >
+        <h2>
+          Starship
+        </h2>
+        <p>
+          Starship is an upcoming super heavy-lift launch vehicle and spacecraft under development by SpaceX.
+        </p>
+        <button
+          className="btn"
+          onClick={[Function]}
+          type="button"
+        >
+          Reserve Rocket
+        </button>
+      </div>
+    </div>
+  </div>
+</main>
+`;

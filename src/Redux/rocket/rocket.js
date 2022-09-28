@@ -33,11 +33,15 @@ const rocketSlice = createSlice({
     },
   },
   extraReducers: {
-    [fetchRocket.fulfilled]: (action) => action.payload,
+    [fetchRocket.fulfilled]: (state, action) => {
+      let newState = state;
+      newState = action.payload;
+      return newState;
+    },
   },
 });
 
 const rocketReducer = rocketSlice.reducer;
 export default rocketReducer;
 export { fetchRocket };
-export const { reserveRocket, cancelRocket } = rocketSlice.actions;
+export const { reserveRocket } = rocketSlice.actions;
