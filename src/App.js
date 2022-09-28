@@ -6,7 +6,6 @@ import Rockets from './components/rocket/Rockets';
 import Profile from './components/profile/Profile';
 import Mission from './components/mission/Mission';
 
-
 function App() {
   return (
     <div>
