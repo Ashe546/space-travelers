@@ -6,7 +6,7 @@ function MyMissions({ data }) {
       <h2>My Missions</h2>
       <ul>
         {data.map((mission) => (
-          <li key={mission.id}>{mission.name}</li>
+          <li key={mission.id}>{mission.mission_name}</li>
         ))}
       </ul>
     </div>

@@ -10,9 +10,10 @@ function Rocket({ description, title, image, id }) {
 
   const [isReserved, setIsisReserved] = useState(false);
 
-  const reserveHandler = () => {
+  const reserveHandler = (e) => {
     dispatch(reserveRocket(id));
     setIsisReserved(!isReserved);
+    e.preventDefault
   };
 
   const reserved = <span>Reserved</span>;

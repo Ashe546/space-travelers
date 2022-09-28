@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchMissions, missionStatus, selectAllMissions } from '../../Redux/mission/missionSlice';
 import style from './Mission.module.css'
@@ -10,10 +10,12 @@ const Mission = () => {
   const dispatch = useDispatch();
   React.useEffect(() => {
     dispatch(fetchMissions());
-  }, [mission]);
+  }, [dispatch]);
+  const [joined, setIsjoined] = useState(false);
 
   const handlemission = (id) => {
     dispatch(missionStatus(id));
+    setIsjoined(!joined);
   };
   return (
     <div>

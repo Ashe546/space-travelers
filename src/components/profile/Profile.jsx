@@ -8,7 +8,7 @@ import { useEffect } from 'react';
 
 function Profile() {
   const { mission } = useSelector(selectAllMissions);
-  const joinMission = mission.filter((x) => x.reservation === true);
+  const joinMission = mission.filter((x) => x.joined === true);
   const rockets = useSelector((state) => state.rockets).filter(
     (rocket) => rocket.reservation,
   );

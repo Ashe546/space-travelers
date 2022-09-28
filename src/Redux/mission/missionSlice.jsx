@@ -16,13 +16,13 @@ const MissionSlice = createSlice({
   reducers: {
     missionStatus: (state, { payload }) => {
       console.log(payload)
-      return state.map((mission) => ({
-        id: mission.mission_id,
-        name: mission.mission_name,
-        description: mission.description,
-        reservation:
-          mission.mission_id === payload ? !mission.mission_reservation : mission.mission_reservation,
-      }));
+      const data = state.mission.map((x) => (x.mission_id === payload
+        ? { ...x, joined: !x.joined }
+        : x));
+      return {
+        ...state,
+        mission: data,
+      };
     },
   },
   extraReducers: (Builder) => {
@@ -36,7 +36,7 @@ const MissionSlice = createSlice({
         action.payload.map((x) => {
           const { mission_id, description, mission_name } = x;
           data.push({
-            mission_id, description, mission_name, reservation: false,
+            mission_id, description, mission_name, joined: false,
           });
           return data;
         });
