@@ -1,3 +1,4 @@
+/*eslint-disable*/
 import store from '../redux/configureStore';
 import { reserveRocket, fetchRocket } from '../redux/rocket/rocket';
 
