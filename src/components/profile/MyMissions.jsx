@@ -7,7 +7,7 @@ function MyMissions() {
       <ul>
         <li>SpaceX</li>
         <li>SpaceX</li>
-        <li>SpaceX Fal</li>
+        <li>SpaceX. Fal</li>
       </ul>
     </div>
   );
