@@ -34,14 +34,14 @@ const Mission = () => {
                   {x.description}
                 </td>
                 <td>
-                  <span>
+                  <h1>
                     Not a member
-                  </span>
+                  </h1>
                 </td>
                 <td>
-                  <span>
+                  <h1>
                     Join Mission
-                  </span>
+                  </h1>
                 </td>
               </tr>
             );

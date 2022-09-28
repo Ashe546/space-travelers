@@ -1,3 +1,5 @@
+import { Routes, Route } from 'react-router-dom';
+
 import { Provider } from 'react-redux';
 import store from './Redux/configureStore';
 
@@ -11,9 +13,12 @@ function App() {
     <div>
       <Provider store={store}>
         <Header />
-        <Rockets />
-        <Profile />
-        <Mission />
+        <Routes>
+          <Route path="/" element={<Rockets />} />
+          <Route path="/profile" element={<Profile />} />
+          <Route path="/mission" element={<Mission />} />
+        </Routes>
+
       </Provider>
     </div>
   );
