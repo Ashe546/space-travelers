@@ -4,6 +4,8 @@ import store from './Redux/configureStore';
 import Header from './components/header/Header';
 import Rockets from './components/rocket/Rockets';
 import Profile from './components/profile/Profile';
+import Mission from './components/mission/Mission';
+
 
 function App() {
   return (
@@ -12,6 +14,7 @@ function App() {
         <Header />
         <Rockets />
         <Profile />
+        <Mission />
       </Provider>
     </div>
   );
