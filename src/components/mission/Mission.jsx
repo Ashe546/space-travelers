@@ -2,6 +2,8 @@ import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchMissions, selectAllMissions } from "../../Redux/mission/missionSlice";
 
+import style from './Mission.module.css'
+
 const Mission = () => {
   const { missions } = useSelector(selectAllMissions);
   const dispatch = useDispatch();
@@ -11,7 +13,6 @@ const Mission = () => {
   return (
     <div >
     <table >
-      <thead>
         <th>
           Mission
         </th>
@@ -22,7 +23,6 @@ const Mission = () => {
           Status
         </th>
         <th></th>
-      </thead>
       <tbody>
           {missions.map((x) => {
             return (
