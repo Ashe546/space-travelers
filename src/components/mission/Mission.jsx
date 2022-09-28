@@ -11,7 +11,6 @@ const Mission = () => {
   return (
     <div >
     <table >
-      <thead>
         <th>
           Mission
         </th>
@@ -22,7 +21,6 @@ const Mission = () => {
           Status
         </th>
         <th></th>
-      </thead>
       <tbody>
           {missions.map((x) => {
             return (
@@ -34,14 +32,14 @@ const Mission = () => {
                   {x.description}
                 </td>
                 <td>
-                  <h1>
+                  <span>
                     Not a member
-                  </h1>
+                  </span>
                 </td>
                 <td>
-                  <h1>
+                  <span>
                     Join Mission
-                  </h1>
+                  </span>
                 </td>
               </tr>
             );
