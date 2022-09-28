@@ -18,7 +18,6 @@ function App() {
           <Route path="/profile" element={<Profile />} />
           <Route path="/mission" element={<Mission />} />
         </Routes>
-
       </Provider>
     </div>
   );
