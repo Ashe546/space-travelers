@@ -3,8 +3,7 @@ import { useSelector } from 'react-redux';
 import MyRockets from './MyRockets';
 import MyMissions from './MyMissions';
 import styles from './Profile.module.css';
-import { selectAllMissions } from '../../Redux/mission/missionSlice';
-import { useEffect } from 'react';
+import {  selectAllMissions  } from '../../Redux/mission/missionSlice';;
 
 function Profile() {
   const { mission } = useSelector(selectAllMissions);
