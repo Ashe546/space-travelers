@@ -16,7 +16,8 @@ describe('Profile', () => {
         {
           id: 1,
           name: 'Falcon 1',
-          description: 'Falcon 1 was an expendable launch system privately developed and manufactured by SpaceX during 2006-2009',
+          description:
+            'Falcon 1 was an expendable launch system privately developed and manufactured by SpaceX during 2006-2009',
           image: 'https://images2.imgbox.com/3c/0e/T8iJcSN3_o.png',
           reservation: false,
         },
@@ -26,8 +27,9 @@ describe('Profile', () => {
           {
             mission_id: '9D1B7E0',
             mission_name: 'Kepler-442 b',
-            description: 'Kepler-442 b is an exoplanet orbiting Kepler-442, a Sun-like star, in the constellation Cygnus.',
-            joined: false,
+            description:
+              'Kepler-442 b is an exoplanet orbiting Kepler-442, a Sun-like star, in the constellation Cygnus.',
+            reservation: false,
           },
         ],
         status: 'idle',

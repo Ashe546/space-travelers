@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import img from '../../asset/planet.png';
 import styles from './Header.module.css';
 
@@ -13,13 +13,28 @@ function Header() {
       <nav>
         <ul className={styles.menu}>
           <li>
-            <Link to="/">Rockets</Link>
+            <NavLink
+              className={({ isActive }) => (isActive ? styles.active : styles.inActive)}
+              to="/"
+            >
+              Rockets
+            </NavLink>
           </li>
           <li>
-            <Link to="/mission">Missions</Link>
+            <NavLink
+              className={({ isActive }) => (isActive ? styles.active : styles.inActive)}
+              to="/mission"
+            >
+              Missions
+            </NavLink>
           </li>
           <li>
-            <Link to="/profile">My Profile</Link>
+            <NavLink
+              className={({ isActive }) => (isActive ? styles.active : styles.inActive)}
+              to="/profile"
+            >
+              My Profile
+            </NavLink>
           </li>
         </ul>
       </nav>
