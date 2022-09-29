@@ -12,17 +12,17 @@ import Mission from '../components/mission/Mission';
 import store from '../Redux/configureStore';
 
 describe('Header renders correctly', () => {
-    test('Renders Header Correctly', () => {
-      const header = render(
-        <Router>
-          <Header />
-        </Router>,
-      );
-      expect(header).toMatchSnapshot();
-    });
+  test('Renders Header Correctly', () => {
+    const header = render(
+      <Router>
+        <Header />
+      </Router>,
+    );
+    expect(header).toMatchSnapshot();
   });
+});
 
-  describe('Profile renders correctly', () => {
+describe('Profile renders correctly', () => {
   test('Renders Profile Correctly', () => {
     const profile = render(
       <Provider store={store}>
@@ -36,27 +36,27 @@ describe('Header renders correctly', () => {
 });
 
 describe('mission renders correctly', () => {
-    test('Renders mission Correctly', () => {
-      const mission = render(
-        <Provider store={store}>
-          <Router>
-            <Mission />
-          </Router>
-        </Provider>,
-      );
-      expect(mission).toMatchSnapshot();
-    });
+  test('Renders mission Correctly', () => {
+    const mission = render(
+      <Provider store={store}>
+        <Router>
+          <Mission />
+        </Router>
+      </Provider>,
+    );
+    expect(mission).toMatchSnapshot();
   });
+});
 
-  describe('rocket renders correctly', () => {
-    test('Renders rocket Correctly', () => {
-      const rocket = render(
-        <Provider store={store}>
-          <Router>
-            <Rockets />
-          </Router>
-        </Provider>,
-      );
-      expect(rocket).toMatchSnapshot();
-    });
+describe('rocket renders correctly', () => {
+  test('Renders rocket Correctly', () => {
+    const rocket = render(
+      <Provider store={store}>
+        <Router>
+          <Rockets />
+        </Router>
+      </Provider>,
+    );
+    expect(rocket).toMatchSnapshot();
   });
+});
