@@ -18,7 +18,7 @@ const Mission = () => {
     setIsjoined(!joined);
   };
   return (
-    <div>
+    <div className={style.container}>
       <table>
         <thead>
           <tr>
@@ -28,27 +28,27 @@ const Mission = () => {
             <th>
               Description
             </th>
-            <th>
+            <th className={style.stutus}>
               Status
             </th>
-            <th>
+            <th className={style.but_join}>
               {' '}
             </th>
           </tr>
         </thead>
         <tbody>
-          {mission.map((x) => (
-            <tr key={x.mission_id}>
-              <td>
+          {mission.map((x, e) => (
+            <tr key={x.mission_id} className={ e%2 === 0 ? style.white : style.grey }>
+              <td className={style.title}>
                 {x.mission_name}
               </td>
-              <td>{x.description}</td>
-              <td>
-                <span>
+              <td className={style.desc}>{x.description}</td>
+              <td className={style.stutus_update}>
+                <span className={x.joined ? style.member : style.nmember}>
                   {x.joined ? 'Active Member' : 'Not a member'}
                 </span>
               </td>
-              <td>
+              <td className={style.stutus_update}>
                 <Button title={x.joined ? 'Leave mission' : 'Join Mission'} className={x.joined ? style.btn : style.joind} onReserve={() => handlemission(x.mission_id)}/>
               </td>
             </tr>
