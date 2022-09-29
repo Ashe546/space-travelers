@@ -15,8 +15,8 @@ describe('Redux store', () => {
     expect(store.getState().mission.mission.length).toEqual(10);
   });
 
-  it('should reserve a rocket', () => {
-    store.dispatch(reserveRocket(1));
-    expect(store.getState().rockets[0].reservation).toEqual(true);
+  it('should Update MissionStutus', () => {
+    store.dispatch(missionStatus('9D1B7E0'));
+    expect(store.getState().mission.mission[0].joined).toEqual(true);
   });
 });
