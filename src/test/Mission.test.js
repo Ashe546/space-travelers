@@ -1,17 +1,18 @@
 /*eslint-disable*/
 import store from '../redux/configureStore';
-import { reserveRocket, fetchRocket } from '../redux/rocket/rocket';
+import { missionStatus, fetchMissions} from '../redux/mission/missionSlice';
 
 describe('Redux store', () => {
   it('should have the correct initial state', () => {
     expect(store.getState()).toEqual({
-      rockets: [],
+      mission: {mission: [], status: "idle"},
+      rockets: []
     });
   });
 
   it('should fetch rockets', async () => {
-    await store.dispatch(fetchRocket());
-    expect(store.getState().rockets.length).toEqual(4);
+    await store.dispatch(fetchMissions());
+    expect(store.getState().mission.mission.length).toEqual(10);
   });
 
   it('should reserve a rocket', () => {
