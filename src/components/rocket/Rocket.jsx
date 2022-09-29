@@ -12,10 +12,9 @@ function Rocket({
 
   const [isReserved, setIsisReserved] = useState(false);
 
-  const reserveHandler = (e) => {
+  const reserveHandler = () => {
     dispatch(reserveRocket(id));
     setIsisReserved(!isReserved);
-    e.preventDefault
   };
 
   const reserved = <span>Reserved</span>;
@@ -34,6 +33,7 @@ function Rocket({
             title={isReserved ? 'Cancel Reservation' : 'Reserve Rocket'}
             onReserve={reserveHandler}
             className={isReserved ? styles.reserved : styles.btn}
+            id={id}
           />
         </div>
       </div>

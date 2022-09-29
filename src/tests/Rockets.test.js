@@ -46,6 +46,10 @@ describe('Rockets', () => {
           reservation: false,
         },
       ],
+      mission: {
+        mission: [],
+        status: 'idle',
+      },
     });
 
     component = renderer.create(

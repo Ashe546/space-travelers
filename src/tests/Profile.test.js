@@ -21,6 +21,17 @@ describe('Profile', () => {
           reservation: false,
         },
       ],
+      mission: {
+        mission: [
+          {
+            mission_id: '9D1B7E0',
+            mission_name: 'Kepler-442 b',
+            description: 'Kepler-442 b is an exoplanet orbiting Kepler-442, a Sun-like star, in the constellation Cygnus.',
+            joined: false,
+          },
+        ],
+        status: 'idle',
+      },
     });
 
     component = renderer.create(

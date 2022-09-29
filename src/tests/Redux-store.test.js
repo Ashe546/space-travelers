@@ -6,6 +6,10 @@ describe('Redux store', () => {
   it('should have the correct initial state', () => {
     expect(store.getState()).toEqual({
       rockets: [],
+      mission: {
+        mission: [],
+        status: 'idle',
+      },
     });
   });
 
