@@ -20,6 +20,6 @@ describe('Redux store', () => {
 
   it('should Update MissionStutus', () => {
     store.dispatch(missionStatus('9D1B7E0'));
-    expect(store.getState().mission.mission[0].joined).toEqual(true);
+    expect(store.getState().mission.mission[0].reservation).toEqual(true);
   });
 });

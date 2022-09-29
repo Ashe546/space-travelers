@@ -25,6 +25,8 @@ Object {
           >
             <li>
               <a
+                aria-current="page"
+                class="active"
                 href="/"
               >
                 Rockets
@@ -32,6 +34,7 @@ Object {
             </li>
             <li>
               <a
+                class="inActive"
                 href="/mission"
               >
                 Missions
@@ -39,6 +42,7 @@ Object {
             </li>
             <li>
               <a
+                class="inActive"
                 href="/profile"
               >
                 My Profile
@@ -70,6 +74,8 @@ Object {
         >
           <li>
             <a
+              aria-current="page"
+              class="active"
               href="/"
             >
               Rockets
@@ -77,6 +83,7 @@ Object {
           </li>
           <li>
             <a
+              class="inActive"
               href="/mission"
             >
               Missions
@@ -84,6 +91,7 @@ Object {
           </li>
           <li>
             <a
+              class="inActive"
               href="/profile"
             >
               My Profile
