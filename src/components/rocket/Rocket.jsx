@@ -5,7 +5,9 @@ import Button from '../../UI/Button';
 import styles from './Rocket.module.css';
 import { reserveRocket } from '../../Redux/rocket/rocket';
 
-function Rocket({ description, title, image, id }) {
+function Rocket({
+  description, title, image, id,
+}) {
   const dispatch = useDispatch();
 
   const [isReserved, setIsisReserved] = useState(false);
