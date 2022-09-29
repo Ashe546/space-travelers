@@ -10,17 +10,7 @@ exports[`Profile should render rocket components correctly 1`] = `
     <h2>
       My Missions
     </h2>
-    <ul>
-      <li>
-        SpaceX
-      </li>
-      <li>
-        SpaceX
-      </li>
-      <li>
-        SpaceX Fal
-      </li>
-    </ul>
+    <ul />
   </div>
   <div
     className="myRocket"

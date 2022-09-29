@@ -25,6 +25,8 @@ Object {
           >
             <li>
               <a
+                aria-current="page"
+                class="active"
                 href="/"
               >
                 Rockets
@@ -32,6 +34,7 @@ Object {
             </li>
             <li>
               <a
+                class="inActive"
                 href="/mission"
               >
                 Missions
@@ -39,6 +42,7 @@ Object {
             </li>
             <li>
               <a
+                class="inActive"
                 href="/profile"
               >
                 My Profile
@@ -70,6 +74,8 @@ Object {
         >
           <li>
             <a
+              aria-current="page"
+              class="active"
               href="/"
             >
               Rockets
@@ -77,6 +83,7 @@ Object {
           </li>
           <li>
             <a
+              class="inActive"
               href="/mission"
             >
               Missions
@@ -84,6 +91,7 @@ Object {
           </li>
           <li>
             <a
+              class="inActive"
               href="/profile"
             >
               My Profile
@@ -92,109 +100,6 @@ Object {
         </ul>
       </nav>
     </header>
-  </div>,
-  "debug": [Function],
-  "findAllByAltText": [Function],
-  "findAllByDisplayValue": [Function],
-  "findAllByLabelText": [Function],
-  "findAllByPlaceholderText": [Function],
-  "findAllByRole": [Function],
-  "findAllByTestId": [Function],
-  "findAllByText": [Function],
-  "findAllByTitle": [Function],
-  "findByAltText": [Function],
-  "findByDisplayValue": [Function],
-  "findByLabelText": [Function],
-  "findByPlaceholderText": [Function],
-  "findByRole": [Function],
-  "findByTestId": [Function],
-  "findByText": [Function],
-  "findByTitle": [Function],
-  "getAllByAltText": [Function],
-  "getAllByDisplayValue": [Function],
-  "getAllByLabelText": [Function],
-  "getAllByPlaceholderText": [Function],
-  "getAllByRole": [Function],
-  "getAllByTestId": [Function],
-  "getAllByText": [Function],
-  "getAllByTitle": [Function],
-  "getByAltText": [Function],
-  "getByDisplayValue": [Function],
-  "getByLabelText": [Function],
-  "getByPlaceholderText": [Function],
-  "getByRole": [Function],
-  "getByTestId": [Function],
-  "getByText": [Function],
-  "getByTitle": [Function],
-  "queryAllByAltText": [Function],
-  "queryAllByDisplayValue": [Function],
-  "queryAllByLabelText": [Function],
-  "queryAllByPlaceholderText": [Function],
-  "queryAllByRole": [Function],
-  "queryAllByTestId": [Function],
-  "queryAllByText": [Function],
-  "queryAllByTitle": [Function],
-  "queryByAltText": [Function],
-  "queryByDisplayValue": [Function],
-  "queryByLabelText": [Function],
-  "queryByPlaceholderText": [Function],
-  "queryByRole": [Function],
-  "queryByTestId": [Function],
-  "queryByText": [Function],
-  "queryByTitle": [Function],
-  "rerender": [Function],
-  "unmount": [Function],
-}
-`;
-
-exports[`Header renders correctly Renders Rockets Correctly 1`] = `
-Object {
-  "asFragment": [Function],
-  "baseElement": <body>
-    <div>
-      <div
-        class="container"
-      >
-        <div
-          class="myMission"
-        >
-          <h2>
-            My Missions
-          </h2>
-          <ul />
-        </div>
-        <div
-          class="myRocket"
-        >
-          <h2>
-            My Rockets
-          </h2>
-          <ul />
-        </div>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div
-      class="container"
-    >
-      <div
-        class="myMission"
-      >
-        <h2>
-          My Missions
-        </h2>
-        <ul />
-      </div>
-      <div
-        class="myRocket"
-      >
-        <h2>
-          My Rockets
-        </h2>
-        <ul />
-      </div>
-    </div>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
@@ -298,188 +203,6 @@ Object {
         <ul />
       </div>
     </div>
-  </div>,
-  "debug": [Function],
-  "findAllByAltText": [Function],
-  "findAllByDisplayValue": [Function],
-  "findAllByLabelText": [Function],
-  "findAllByPlaceholderText": [Function],
-  "findAllByRole": [Function],
-  "findAllByTestId": [Function],
-  "findAllByText": [Function],
-  "findAllByTitle": [Function],
-  "findByAltText": [Function],
-  "findByDisplayValue": [Function],
-  "findByLabelText": [Function],
-  "findByPlaceholderText": [Function],
-  "findByRole": [Function],
-  "findByTestId": [Function],
-  "findByText": [Function],
-  "findByTitle": [Function],
-  "getAllByAltText": [Function],
-  "getAllByDisplayValue": [Function],
-  "getAllByLabelText": [Function],
-  "getAllByPlaceholderText": [Function],
-  "getAllByRole": [Function],
-  "getAllByTestId": [Function],
-  "getAllByText": [Function],
-  "getAllByTitle": [Function],
-  "getByAltText": [Function],
-  "getByDisplayValue": [Function],
-  "getByLabelText": [Function],
-  "getByPlaceholderText": [Function],
-  "getByRole": [Function],
-  "getByTestId": [Function],
-  "getByText": [Function],
-  "getByTitle": [Function],
-  "queryAllByAltText": [Function],
-  "queryAllByDisplayValue": [Function],
-  "queryAllByLabelText": [Function],
-  "queryAllByPlaceholderText": [Function],
-  "queryAllByRole": [Function],
-  "queryAllByTestId": [Function],
-  "queryAllByText": [Function],
-  "queryAllByTitle": [Function],
-  "queryByAltText": [Function],
-  "queryByDisplayValue": [Function],
-  "queryByLabelText": [Function],
-  "queryByPlaceholderText": [Function],
-  "queryByRole": [Function],
-  "queryByTestId": [Function],
-  "queryByText": [Function],
-  "queryByTitle": [Function],
-  "rerender": [Function],
-  "unmount": [Function],
-}
-`;
-
-exports[`Profile renders correctly Renders Profile Correctly 2`] = `
-Object {
-  "asFragment": [Function],
-  "baseElement": <body>
-    <div>
-      <div
-        class="container"
-      >
-        <table>
-          <thead>
-            <tr>
-              <th>
-                Mission
-              </th>
-              <th>
-                Description
-              </th>
-              <th
-                class="stutus"
-              >
-                Status
-              </th>
-              <th
-                class="but_join"
-              >
-                 
-              </th>
-            </tr>
-          </thead>
-          <tbody />
-        </table>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div
-      class="container"
-    >
-      <table>
-        <thead>
-          <tr>
-            <th>
-              Mission
-            </th>
-            <th>
-              Description
-            </th>
-            <th
-              class="stutus"
-            >
-              Status
-            </th>
-            <th
-              class="but_join"
-            >
-               
-            </th>
-          </tr>
-        </thead>
-        <tbody />
-      </table>
-    </div>
-  </div>,
-  "debug": [Function],
-  "findAllByAltText": [Function],
-  "findAllByDisplayValue": [Function],
-  "findAllByLabelText": [Function],
-  "findAllByPlaceholderText": [Function],
-  "findAllByRole": [Function],
-  "findAllByTestId": [Function],
-  "findAllByText": [Function],
-  "findAllByTitle": [Function],
-  "findByAltText": [Function],
-  "findByDisplayValue": [Function],
-  "findByLabelText": [Function],
-  "findByPlaceholderText": [Function],
-  "findByRole": [Function],
-  "findByTestId": [Function],
-  "findByText": [Function],
-  "findByTitle": [Function],
-  "getAllByAltText": [Function],
-  "getAllByDisplayValue": [Function],
-  "getAllByLabelText": [Function],
-  "getAllByPlaceholderText": [Function],
-  "getAllByRole": [Function],
-  "getAllByTestId": [Function],
-  "getAllByText": [Function],
-  "getAllByTitle": [Function],
-  "getByAltText": [Function],
-  "getByDisplayValue": [Function],
-  "getByLabelText": [Function],
-  "getByPlaceholderText": [Function],
-  "getByRole": [Function],
-  "getByTestId": [Function],
-  "getByText": [Function],
-  "getByTitle": [Function],
-  "queryAllByAltText": [Function],
-  "queryAllByDisplayValue": [Function],
-  "queryAllByLabelText": [Function],
-  "queryAllByPlaceholderText": [Function],
-  "queryAllByRole": [Function],
-  "queryAllByTestId": [Function],
-  "queryAllByText": [Function],
-  "queryAllByTitle": [Function],
-  "queryByAltText": [Function],
-  "queryByDisplayValue": [Function],
-  "queryByLabelText": [Function],
-  "queryByPlaceholderText": [Function],
-  "queryByRole": [Function],
-  "queryByTestId": [Function],
-  "queryByText": [Function],
-  "queryByTitle": [Function],
-  "rerender": [Function],
-  "unmount": [Function],
-}
-`;
-
-exports[`Profile renders correctly Renders Profile Correctly 3`] = `
-Object {
-  "asFragment": [Function],
-  "baseElement": <body>
-    <div>
-      <main />
-    </div>
-  </body>,
-  "container": <div>
-    <main />
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
