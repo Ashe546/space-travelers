@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchMissions, missionStatus, selectAllMissions } from '../../Redux/mission/missionSlice';
-import style from './Mission.module.css'
+import style from './Mission.module.css';
 
 import Button from '../../UI/Button';
 
@@ -38,7 +38,7 @@ const Mission = () => {
         </thead>
         <tbody>
           {mission.map((mission, e) => (
-            <tr key={mission.mission_id} className={ e%2 === 0 ? style.white : style.grey }>
+            <tr key={mission.mission_id} className={e % 2 === 0 ? style.white : style.grey}>
               <td className={style.title}>
                 {mission.mission_name}
               </td>
@@ -49,7 +49,7 @@ const Mission = () => {
                 </span>
               </td>
               <td className={style.stutus_update}>
-                <Button title={mission.joined ? 'Leave mission' : 'Join Mission'} className={mission.joined ? style.btn : style.joind} onReserve={() => handlemission(mission.mission_id)}/>
+                <Button title={mission.joined ? 'Leave mission' : 'Join Mission'} className={mission.joined ? style.btn : style.joind} onReserve={() => handlemission(mission.mission_id)} />
               </td>
             </tr>
           ))}
