@@ -1,77 +1,79 @@
 .container {
-    width: 100%;
-    padding: 0 2em;
-    margin-top: 2rem;
-  }
-  
-  table, td, th {
-    border: 1px solid;
-  }
-  
-  table {
-    width: 100%;
-    border-collapse: collapse;
-  }
+  width: 100%;
+  padding: 0 2em;
+  margin-top: 2rem;
+}
 
-  .title {
-    width: 10%;
-    padding-left: 10px;
-    font-weight: 700;
-  }
+table,
+td,
+th {
+  border: 1px solid;
+}
 
-  .desc {
-    padding: 0.5em 0.5em;
-    width: 60%;
-    font-weight: 450;
-    font-size: small;
-  }
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
 
-  .stutus {
-    width: 7%;
-  }
+.title {
+  width: 10%;
+  padding-left: 10px;
+  font-weight: 700;
+}
 
-  .stutus_update {
-    display: table-cell;
-    vertical-align: inherit;
-    text-align: center;
-  }
+.desc {
+  padding: 0.5em 0.5em;
+  width: 60%;
+  font-weight: 450;
+  font-size: small;
+}
 
-  .but_join {
-    width: 10%;
-  }
+.stutus {
+  width: 7%;
+}
 
-  .member {
-    background-color: #18a2b8;
-    padding: 0.3rem 0.3rem;
-    font-size: x-small;
-    border-radius: 3px;
-  }
+.stutus_update {
+  display: table-cell;
+  vertical-align: inherit;
+  text-align: center;
+}
 
-  .nmember {
-    background-color: gray;
-    padding: 0.3rem 0.3rem;
-    font-size: x-small;
-    border-radius: 3px;
-  }
+.but_join {
+  width: 10%;
+}
 
-  .joind {
-    background-color: inherit;
-    padding: 0.3rem 0.5rem;
-    border-radius: 3px;
-  }
+.member {
+  background-color: #18a2b8;
+  padding: 0.3rem 0.3rem;
+  font-size: x-small;
+  border-radius: 3px;
+}
 
-  .btn {
-    background-color: inherit;
-    border: solid 1px red;
-    color: red;
-    padding: 0.3rem 0.5rem;
-    border-radius: 3px;
-  }
+.nmember {
+  background-color: gray;
+  padding: 0.3rem 0.3rem;
+  font-size: x-small;
+  border-radius: 3px;
+}
 
-  .grey {
-    background-color: #f2f2f2;
-  }
+.joind {
+  background-color: inherit;
+  padding: 0.3rem 0.5rem;
+  border-radius: 3px;
+}
 
-  .white {
-     background-color: white;
-  }
+.btn {
+  background-color: inherit;
+  border: solid 1px red;
+  color: red;
+  padding: 0.3rem 0.5rem;
+  border-radius: 3px;
+}
+
+.grey {
+  background-color: #f2f2f2;
+}
+
+.white {
+  background-color: white;
+}
