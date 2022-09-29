@@ -1,4 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
+import { Link } from 'react-router-dom';
 import img from '../../asset/planet.png';
 import styles from './Header.module.css';
 
@@ -12,13 +13,13 @@ function Header() {
       <nav>
         <ul className={styles.menu}>
           <li>
-            <a>Rockets</a>
+            <Link to="/">Rockets</Link>
           </li>
           <li>
-            <a>Missions</a>
+            <Link to="/mission">Missions</Link>
           </li>
           <li>
-            <a>My Profile</a>
+            <Link to="/profile">My Profile</Link>
           </li>
         </ul>
       </nav>
