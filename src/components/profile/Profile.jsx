@@ -8,11 +8,10 @@ import { useEffect } from 'react';
 
 function Profile() {
   const { mission } = useSelector(selectAllMissions);
-  const joinMission = mission.filter((x) => x.joined === true);
+  const joinMission = mission.filter((mission) => mission.joined === true);
   const rockets = useSelector((state) => state.rockets).filter(
     (rocket) => rocket.reservation,
   );
-  console.log(mission)
 
   return (
     <div className={styles.container}>
