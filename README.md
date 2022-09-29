@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Bookstore-CMS
+# Space Travelers' Hub
 
-Space travelers is an app built with React | CSS | React-router | Jest | Redux-toolkit. this is an app where users can board available missions and rockets.
+Space Travelers' Hub is an app built with React | CSS | React-router | Jest | Redux-toolkit. this is an app where users can board available missions and rockets.
 
 ## Built With
 
